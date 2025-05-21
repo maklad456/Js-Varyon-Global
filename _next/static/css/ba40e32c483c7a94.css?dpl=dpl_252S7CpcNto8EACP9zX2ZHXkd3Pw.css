@@ -1,0 +1,42 @@
+/* 1. Load the Medium weight for “Varyon” */
+@font-face {
+  font-family: "NeueHaasUnicaPro";
+  src: url("/fonts/NeueHaasUnicaPro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2. Load the Light weight for “Global” */
+@font-face {
+  font-family: "NeueHaasUnicaPro";
+  src: url("/fonts/NeueHaasUnicaPro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face{font-family:BrasleyDemo-Medium;src:url(../../../fonts/Brasley-Demo-Medium.otf) format("opentype");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:DM-Sans;src:url(../media/DMSans.c25915a0.ttf) format("truetype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:DM-Sans-Italic;src:url(../media/DMSans-Italic.ee0ce24a.ttf) format("truetype");font-weight:400;font-style:italic;font-display:swap}@font-face{font-family:DM-Mono-Light;src:url(../media/DMMono-Light.559007bb.ttf) format("truetype");font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:DM-Mono-Italic;src:url(../../../fonts/DMMono-Italic.woff2) format("woff2");font-weight:400;font-style:italic;font-display:swap}@font-face{font-family:DM-Mono-Light-Italic;src:url(../media/DMMono-LightItalic.7e9afbe4.ttf) format("truetype");font-weight:300;font-style:italic;font-display:swap}@font-face{font-family:DM-Mono-Medium;src:url(../media/DMMono-Medium.28f69fcc.ttf) format("truetype");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:DM-Mono-Medium-Italic;src:url(../media/DMMono-MediumItalic.995ca513.ttf) format("truetype");font-weight:500;font-style:italic;font-display:swap}@font-face{font-family:DM-Mono-Regular;src:url(../media/DMMono-Regular.bddf831d.ttf) format("truetype");font-weight:400;font-style:normal;font-display:swap}
+/* “VARYON” — Neue Haas Unica Medium, tight tracking */
+.logo-text-main {
+  font-size: 140px;
+  line-height: 1;
+   font-family: "NeueHaasUnicaPro", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: -0.05em; /* approx. –5 tracking */
+}
+
+/* “global” — Neue Haas Unica Light, small-caps, airy tracking */
+.logo-text-sub {
+  font-size: 120px;
+  line-height: 1;
+    font-family: "NeueHaasUnicaPro", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;  /* approx. +120 tracking */
+}
+/* Make header logo match your green‐mockup size */
+#header-logo {
+  width: 20rem !important;    /* ⇐ bump this up until it looks right */
+  height: auto   !important;   /* preserves SVG aspect ratio */
+}
